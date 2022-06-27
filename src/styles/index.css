@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Futura;
+  src: url("../Assets/fonts/Futura\ Lt\ Light.ttf");
+}
+@font-face {
+  font-family: LuloCleanBold;
+  src: url("../Assets/fonts/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf");
+}
+@font-face {
+  font-family: LuloClean;
+  src: url("../Assets/fonts/FontsFree-Net-Lulo-Clean-W01-One.ttf");
+}
+.futura {
+  font-family: "Futura", "sans-serif";
+}
+.lulu-bold {
+  font-family: "LuloCleanBold", "sans-serif";
+}
+.lulu {
+  font-family: "LuloClean", "sans-serif";
+}
+.kanit {
+  font-family: "Kanit", sans-serif;
+}
+:root {
+  --primary-color: white;
+  --secondary-color: white;
+  --gradient-color: linear-gradient(
+    140deg,
+    rgb(138, 62, 255) 0%,
+    rgb(184, 54, 202) 40%,
+    rgb(230, 47, 151) 80%,
+    rgb(246, 43, 132) 100%
+  );
+  --body-bg: linear-gradient(
+    to bottom,
+    rgb(187, 148, 247) 0%,
+    rgb(241, 131, 255) 40%,
+    rgb(221, 77, 159) 80%
+  );
+}
+
+body {
+  background: var(--body-bg);
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 175px;
+}

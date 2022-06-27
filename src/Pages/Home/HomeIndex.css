@@ -1,0 +1,39 @@
+.home-index {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 10px;
+}
+.index-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 180px;
+  position: relative;
+  overflow-x: hidden;
+}
+.bg {
+  right: 0;
+  top: 0;
+  max-width: 100%;
+  object-fit: contain;
+  opacity: 0.6;
+  position: absolute;
+  z-index: -1;
+}
+@media screen and (max-width: 1098px) {
+  .index-cont {
+    display: block;
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .index-cont {
+    background-image: url("../../Assets/cool-background.svg");
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+  .bg {
+    display: none;
+  }
+}

@@ -1,0 +1,42 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  color: white;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+.about p,
+.art-desc {
+  padding: 20px 10px;
+  background-color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  position: relative;
+  width: 620px;
+}
+.about p::before,
+.art-desc::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 4px;
+  background: var(--gradient-color);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+@media screen and (max-width: 660px) {
+  .about p,
+  .art-desc {
+    width: 98%;
+    padding: 20px 10px;
+    font-size: 0.8rem;
+  }
+}
