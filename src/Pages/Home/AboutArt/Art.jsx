@@ -6,7 +6,7 @@ import gif from "../../../Assets/gif-box.gif";
 function Art() {
   return (
     <div className="art">
-      <Fade triggerOnce direction="down" duration={1000} delay={200}>
+      <Fade triggerOnce direction="up" duration={1000} delay={200}>
         <div className="team-grid__box">
           <div className="team-box__left">
             <h1 className="section-heading kanit">About The Art</h1>

@@ -14,69 +14,73 @@ function Roadmap() {
           <div className="road-div div1">
             <h2 className="kanit">Phase 1: Meet your sol sister.</h2>
             <p className="futura">
-              - Sol sisters will launch in June 15th 2022 on Solana block-chain
+              • Soul sisters will launch in June 30th 2022 on ETH block-chain
             </p>
             <p>
-              - Sol sisters are an exclusive mint for whitelist only with 300
-              spots only.
+              • Soul sisters acts as a utility key for access to dating dapp and
+              forum being built by our team.
             </p>
             <p>
-              - Whitelisted users will gain full access to all discord channels.
+              • Holders will get access to discord to community till we launch
+              our own forum.
             </p>
             <p>
-              - Once minted holders will gain access to exclusive channels and
-              can start applying for internal vacancies in sol sisters and join
-              our Sol sisters Dao.
-            </p>
-            <p>
-              - 72 hours after public sale, the mystery of the sol sisters will
+              • 72 hours after public sale, the mystery of the soul sisters will
               be revealed.
             </p>
           </div>
           <div className="road-div div2">
             <h2 className="kanit">Phase 2: Empowering the sisters.</h2>
             <p className="futura">
-              - Holders will be given privilege to attend spaces where they will
+              • Holders will be given privilege to attend spaces where they will
               get to learn and examine everything related to web3 by known
               professionals, our goal is to educate women and men more about
               web3 and help them shape new careers
             </p>
             <p className="futura">
-              - We will start building our own on chain game with the help of
-              the community by hiring professionals from within the community to
-              start shaping our meta-verse and future.
+              • Weekly meeting with the community to share ideas and shape our
+              future together.
             </p>
             <p className="futura">
-              - Monthly internal charity work will be conducted where holders
+              • Monthly internal charity work will be conducted where holders
               can apply for support and provide documents which will be reviewed
-              by our DAO and if accepted will be granted financial support by us
-              to help shape a better future, goal is to help women who really
-              are in need within us.
+              within the community and if accepted will be granted financial
+              support by us to help shape a better future. Our goal is to help
+              the ones who really are in need within us.
             </p>
           </div>
           <div className="road-div div3">
             <h2 className="kanit">Phase 3: Gift the sisters</h2>
             <p className="futura">
-              - Holders will be granted exclusive whitelist spot for our next
+              • Holders will be granted exclusive whitelist spot for our next
               drop merry land, a set of unique mermaids that will serve our
               ecosystem and game plan.
             </p>
             <p className="futura">
-              - Weekly giveaways for active sisters and true soul sisters.
+              • Weekly giveaways for active sisters and true soul sisters.
             </p>
             <p className="futura">
-              - Exclusive access to our beta game version.
+              • Exclusive access to our beta game version.
             </p>
           </div>
           <div className="road-div div4">
             <h2 className="kanit">Phase 4: Sisters in action</h2>
             <p className="futura">
-              - We will build our own Launchpad and help our community and
-              holders share their work with the world, by funding them and
-              helping them launch, projects will be voted and selected through
-              our DAO.
+              • Once sold out we expect to release a beta version of our dapp
+              within this year.
             </p>
-            <p className="futura">- Release our game by the end of 2022</p>
+            <p className="futura">
+              • Community members and holders will be given exclusive access to
+              the dating dapp and meet other degens who share the same
+              interests.
+            </p>
+            <p className="futura">
+              • Once the dapp is officially in use we will start our marketing
+              phase of reaching out to selected projects chosen by our community
+              to integrate and collab, giving access to their communities to use
+              our dapp, hence increasing the dapps users on steady bases and our
+              projects success.
+            </p>
           </div>
         </Fade>
       </div>

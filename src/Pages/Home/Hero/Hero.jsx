@@ -2,7 +2,6 @@ import React from "react";
 import "./Hero.css";
 import gif from "../../../Assets/gif.gif";
 import { Fade } from "react-awesome-reveal";
-import Btn from "../../../btn";
 function Hero() {
   return (
     <div id="hero" className="hero">
@@ -24,7 +23,7 @@ function Hero() {
           </p>
           <div className="btn-div-hero">
             <div className="heart-shape"></div>
-            <Btn />
+            <button className="view lulu-bold">Mint Me</button>
           </div>
         </div>
       </Fade>

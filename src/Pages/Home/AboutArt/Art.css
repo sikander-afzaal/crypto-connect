@@ -62,7 +62,7 @@
 }
 @media screen and (max-width: 820px) {
   .team-grid__box {
-    width: 96%;
+    width: 100%;
   }
 
   .team-box-desc {

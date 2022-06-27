@@ -22,7 +22,7 @@
   letter-spacing: 4px;
 }
 .left__hero p {
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: var(--secondary-color);
   width: 517px;
   text-align: center;
@@ -37,8 +37,7 @@
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
   background: var(--gradient-color);
-  pointer-events: none;
-
+  cursor: pointer;
   z-index: 6;
 }
 .heart-shape:before,
@@ -53,7 +52,7 @@
   -o-border-radius: 50%;
   border-radius: 50%;
   background: var(--gradient-color);
-  pointer-events: none;
+  cursor: pointer;
 }
 .heart-shape:before {
   bottom: 0px;
@@ -77,9 +76,7 @@
   border: none;
   top: 30%;
   z-index: 8;
-  cursor: pointer;
   left: 50%;
-  height: 50px;
   transform: translate(-50%, -50%);
 }
 

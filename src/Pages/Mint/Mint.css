@@ -1,0 +1,23 @@
+.mint {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../Assets/mint.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mint button {
+  padding: 10px 30px;
+  background-color: rgba(246, 43, 132, 0.7);
+  border: 3px solid white;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.2s ease;
+}
+.mint button:hover {
+  opacity: 0.6;
+}

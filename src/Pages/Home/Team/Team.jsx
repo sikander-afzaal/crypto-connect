@@ -3,8 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import "./Team.css";
-import teamImg from "../../../Assets/team/team1.webp";
-import teamNft from "../../../Assets/team/team-nft.webp";
+import teamImg from "../../../Assets/art/art (7).png";
+import teamImg2 from "../../../Assets/art/art (2).png";
+import teamNft from "../../../Assets/art/art (3).png";
+import teamNft2 from "../../../Assets/art/art (6).png";
 
 import { Fade } from "react-awesome-reveal";
 function Team() {
@@ -63,8 +65,8 @@ function Team() {
         >
           <div className="coo-div">
             <div className="coo__img-div">
-              <img src={teamImg} alt="" className="team-img" />
-              <img src={teamNft} alt="" className="team-nft" />
+              <img src={teamImg2} alt="" className="team-img" />
+              <img src={teamNft2} alt="" className="team-nft" />
             </div>
             <div className="top-desc">
               <div>

@@ -43,7 +43,7 @@ function Faq() {
               className={`faq-btn lulu ${open[0] ? "border-radius" : ""}`}
             >
               <p className={`${open[0] ? "active-btn" : ""}`}>
-                What is Sol Sisters?
+                What is soul sisters?
               </p>
               {open[0] ? (
                 <FontAwesomeIcon
@@ -56,8 +56,8 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[0] ? "active" : ""}`}>
               <p className="answer futura">
-                It is an NFT set of 2222 sol sisters that grant holders access
-                to exclusive community channels, courses, events and drops.
+                It is a set of 6969 soul sisters that grant holders access to
+                exclusive dating dapp, community forums & events.
               </p>
             </div>
           </>
@@ -76,7 +76,7 @@ function Faq() {
               className={`faq-btn lulu ${open[1] ? "border-radius" : ""}`}
             >
               <p className={`${open[1] ? "active-btn" : ""}`}>
-                Which block chain are Sol Sisters on?
+                Which block chain are soul sisters on?
               </p>
               {open[1] ? (
                 <FontAwesomeIcon
@@ -88,7 +88,7 @@ function Faq() {
               )}
             </div>
             <div className={`faq-answer ${open[1] ? "active" : ""}`}>
-              <p className="answer futura">We are launching on Solana.</p>
+              <p className="answer futura">We are launching on Etherum.</p>
             </div>
           </>
         </Fade>
@@ -113,8 +113,8 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[2] ? "active" : ""}`}>
               <p className="answer futura">
-                Sol sister was founded by FC Villaflores the artist and her life
-                partner Soul Reaper the tech head.
+                Soul sister was founded by FC Villaflores the artist and her
+                life partner Soul Reaper the tech head.
               </p>
             </div>
           </>
@@ -144,8 +144,8 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[3] ? "active" : ""}`}>
               <p className="answer futura">
-                Due to the supply being low it is an exclusive drop for early
-                supporters with a limit of 300 whitelist spots.
+                You can mint from the website or if you have experience mint
+                through etherscan and interact directly with contract.
               </p>
             </div>
           </>
@@ -177,8 +177,8 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[4] ? "active" : ""}`}>
               <p className="answer futura">
-                Follow our twitter and be active on discord with a total of 10
-                invites will grant you a whitelist spot.
+                We are going for a public mint no WL required, but winners of
+                our twitter events get airdropped a “Sista” for free.
               </p>
             </div>
           </>
@@ -210,7 +210,7 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[5] ? "active" : ""}`}>
               <p className="answer futura">
-                Mint price is 1.5 sol and max 3 per Whitelisted wallet.
+                Mint price is 0.03 ETH and max 5 per wallet.
               </p>
             </div>
           </>

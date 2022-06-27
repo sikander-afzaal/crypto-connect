@@ -1,13 +1,15 @@
+import { Route, Routes } from "react-router-dom";
 import React from "react";
-import Footer from "./Layout/Footer/Footer";
-import Header from "./Layout/Header/Header";
+
 import Index from "./Pages/Home/Index";
+import Mint from "./Pages/Mint/Mint";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Index />
-      <Footer />
+      <Routes>
+        <Route path={"/Main"} element={<Index />} />
+        <Route path={"/"} element={<Mint />} />
+      </Routes>
     </div>
   );
 }

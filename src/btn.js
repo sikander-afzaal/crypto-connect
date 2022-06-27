@@ -104,13 +104,11 @@ function Btn() {
   return (
     <button
       onClick={(e) => {
-        e.preventDefault();
         dispatch(connect());
         getData();
       }}
-      className="view lulu-bold"
     >
-      Mint Me
+      Connect Wallet
     </button>
   );
 }
