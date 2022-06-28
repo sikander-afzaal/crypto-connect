@@ -10,13 +10,15 @@ import Art from "./AboutArt/Art";
 import Work from "./Work/Work";
 import Header from "../../Layout/Header/Header";
 import Footer from "../../Layout/Footer/Footer";
+import Mint from "../Mint/Mint";
 function Index() {
   return (
     <div className="index-cont">
-      <img src={bg} alt="" className="bg" />
+      {/* <img src={bg} alt="" className="bg" /> */}
       <Header />
+      <Mint />
       <div className="home-index">
-        <Hero />
+        {/* <Hero /> */}
         <About />
         <Art />
         <Work />

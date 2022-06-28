@@ -4,6 +4,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import "./Header.css";
+import logo from "../../Assets/logo3.png";
 import opensea from "../../Assets/opensea.png";
 import etherscan from "../../Assets/etherscan.png";
 function Header() {
@@ -11,29 +12,29 @@ function Header() {
 
   return (
     <div className="header">
-      <div className="top-header">
-        <div className="social-div">
-          <a href="https://twitter.com/solsistersclub" target={"blank"}>
-            <FontAwesomeIcon icon={faTwitter} className={"header-icon"} />
-          </a>
-          <a href="https://twitter.com/solsistersclub" target={"blank"}>
-            <img src={opensea} alt="" className="header-icon" />
-          </a>
-          <a
-            href="https://etherscan.io/address/0x108c5ee2be6472e2110482801e86c520bbd40bfe"
-            target={"blank"}
-          >
-            <img src={etherscan} alt="" className="header-icon" />
-          </a>
-        </div>
-        <FontAwesomeIcon
-          onClick={() => setMenu(true)}
-          icon={faBars}
-          className="menu-icon mobile"
-        />
+      <div className="social-div">
+        <a href="https://twitter.com/solsistersclub" target={"blank"}>
+          <FontAwesomeIcon icon={faTwitter} className={"header-icon"} />
+        </a>
+        <a href="https://twitter.com/solsistersclub" target={"blank"}>
+          <img src={opensea} alt="" className="header-icon" />
+        </a>
+        <a
+          href="https://etherscan.io/address/0x108c5ee2be6472e2110482801e86c520bbd40bfe"
+          target={"blank"}
+        >
+          <img src={etherscan} alt="" className="header-icon" />
+        </a>
       </div>
+      <FontAwesomeIcon
+        onClick={() => setMenu(true)}
+        icon={faBars}
+        className="menu-icon mobile"
+      />
+
       <div className="logo">
-        <h1 className="lulu-bold">SOL SISTERS</h1>
+        {/* <h1 className="lulu-bold">SOL SISTERS</h1> */}
+        <img src={logo} alt="" />
       </div>
       <FontAwesomeIcon
         onClick={() => setMenu(true)}

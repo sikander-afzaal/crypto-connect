@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 180px;
+  /* padding-top: 180px; */
   position: relative;
   overflow-x: hidden;
 }
@@ -41,15 +41,9 @@
   position: absolute;
   z-index: -1;
 }
-@media screen and (max-width: 1098px) {
-  .index-cont {
-    display: block;
-    padding-top: 150px;
-  }
-}
 @media screen and (max-width: 900px) {
   .index-cont {
-    background-image: url("../../Assets/cool-background.svg");
+    /* background-image: url("../../Assets/cool-background.svg"); */
     background-position: top right;
     background-repeat: no-repeat;
   }
