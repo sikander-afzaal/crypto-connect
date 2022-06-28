@@ -22,6 +22,7 @@
 .second-cont {
   background-image: url("../../Assets/by\ Fc\ villaflores\ \(6\).png");
   background-size: 100% 100%;
+  overflow-y: hidden;
 }
 .index-cont {
   width: 100%;

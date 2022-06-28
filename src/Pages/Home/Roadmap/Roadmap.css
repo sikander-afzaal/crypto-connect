@@ -29,9 +29,10 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   position: relative;
+  padding-left: 6rem;
   gap: 10px;
 }
 .road-div::before {
@@ -70,10 +71,14 @@
     padding: 10px;
     width: 95%;
   }
+  .road-div {
+    padding-left: 3rem;
+  }
 }
 @media screen and (max-width: 559px) {
   .road-div h2 {
     font-size: 1.6rem;
+    text-align: left;
   }
   .road-div p {
     font-size: 1rem;
@@ -84,5 +89,8 @@
   .road-div::before {
     left: -32px;
     top: 10px;
+  }
+  .road-div {
+    padding-left: 0.5rem;
   }
 }

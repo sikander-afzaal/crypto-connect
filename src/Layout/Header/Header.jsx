@@ -36,11 +36,13 @@ function Header() {
         {/* <h1 className="lulu-bold">sol SISTERS</h1> */}
         <img src={logo} alt="" />
       </div>
-      <FontAwesomeIcon
-        onClick={() => setMenu(true)}
-        icon={faBars}
-        className="menu-icon desktop"
-      />
+      <div className="menu-icon-div desktop">
+        <FontAwesomeIcon
+          onClick={() => setMenu(true)}
+          icon={faBars}
+          className="menu-icon"
+        />
+      </div>
       <div className={`slide-menu ${menu ? "open-slide-menu" : ""}`}>
         <FontAwesomeIcon
           onClick={() => setMenu(false)}

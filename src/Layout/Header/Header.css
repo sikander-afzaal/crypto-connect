@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  height: 143px;
+  height: 103px;
   position: fixed;
   top: 0;
   left: 0;
@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  padding: 30px 50px;
+  padding: 10px 50px;
   gap: 5px;
   background-color: white;
   z-index: 10;
@@ -35,16 +35,12 @@
   place-items: center;
   cursor: pointer;
 }
-.logo {
-  text-align: center;
-  /* width: 100%; */
-  display: flex;
-  justify-content: center;
-}
+
 .logo img {
-  max-width: 150px;
+  max-width: 80px;
   object-fit: contain;
 }
+
 .logo h1 {
   font-size: 2.75rem;
   letter-spacing: 20px;
@@ -54,6 +50,17 @@
   font-size: 1.7rem;
   cursor: pointer;
   color: black;
+}
+.menu-icon-div {
+  width: 130px;
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu-icon:hover {
   color: black;
@@ -125,11 +132,11 @@
   color: black;
 }
 .menu-link:hover {
-  background-color: rgb(199, 199, 199);
+  background-color: rgb(230, 47, 151);
   color: white;
 }
 .desktop {
-  display: block;
+  display: flex;
 }
 .mobile {
   display: none;
@@ -142,7 +149,7 @@
 }
 @media screen and (max-width: 1098px) {
   .header {
-    height: 150px;
+    height: 100px;
     padding: 0px 30px;
     gap: 15px;
   }
@@ -154,7 +161,7 @@
     display: inline-flex;
   }
   .logo img {
-    max-width: 90px;
+    max-width: 60px;
   }
   .logo {
     width: fit-content;
