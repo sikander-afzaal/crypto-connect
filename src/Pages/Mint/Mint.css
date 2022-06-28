@@ -17,6 +17,7 @@
   width: 100%;
   height: 100%;
   background-image: url("../../Assets/Soul\ Sisters\ \(5\).gif");
+
   background-repeat: no-repeat;
   background-size: 100% 100%;
   left: 0;
@@ -46,11 +47,10 @@
   .mint::after {
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 850px) {
   .mint::after {
-    background-image: url("../../Assets/mint.gif");
+    background-image: url("../../Assets/mint.svg");
     background-size: cover;
-
-    opacity: 0.7;
+    opacity: 0.8;
   }
 }

@@ -35,6 +35,7 @@ function Work() {
               },
               650: {
                 perPage: 1,
+                gap: "0px",
               },
             },
             autoScroll: {

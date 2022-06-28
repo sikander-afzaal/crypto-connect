@@ -18,12 +18,12 @@ function Roadmap() {
           cascade
         >
           <div className="road-div div1">
-            <h2 className="kanit">Phase 1: Meet your sol sister.</h2>
+            <h2 className="kanit">Phase 1: Meet your Soul Sister.</h2>
             <p className="futura">
-              • Soul sisters will launch in June 30th 2022 on ETH block-chain
+              • Soul Sisters will launch in June 30th 2022 on ETH block-chain
             </p>
             <p className="futura">
-              • Soul sisters acts as a utility key for access to dating dapp and
+              • Soul Sisters acts as a utility key for access to dating dapp and
               forum being built by our team.
             </p>
             <p className="futura">
@@ -31,7 +31,7 @@ function Roadmap() {
               our own forum.
             </p>
             <p className="futura">
-              • 72 hours after public sale, the mystery of the soul sisters will
+              • 72 hours after public sale, the mystery of the Soul Sisters will
               be revealed.
             </p>
           </div>
@@ -63,7 +63,7 @@ function Roadmap() {
               ecosystem and game plan.
             </p>
             <p className="futura">
-              • Weekly giveaways for active sisters and true soul sisters.
+              • Weekly giveaways for active sisters and true Soul Sisters.
             </p>
             <p className="futura">
               • Exclusive access to our beta game version.

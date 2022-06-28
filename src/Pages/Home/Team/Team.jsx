@@ -74,7 +74,7 @@ function Team() {
             <div className="desc-div">
               <div className="top-desc">
                 <div>
-                  <h2 className="kanit">Soul Reaper </h2>
+                  <h2 className="kanit">soul Reaper </h2>
                   <p className="futura title">Tech Head {"&"} Co-founder</p>
                 </div>
 
@@ -85,7 +85,7 @@ function Team() {
               </div>
 
               <p className="coo-desc futura">
-                Soul Reaper is a business development manager with 11 years of
+                sol Reaper is a business development manager with 11 years of
                 experience; however he has a soft side for tech and web3
               </p>
             </div>

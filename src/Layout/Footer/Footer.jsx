@@ -5,11 +5,12 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import opensea from "../../Assets/opensea.png";
 import etherscan from "../../Assets/etherscan.png";
+import logo from "../../Assets/logo3.png";
 function Footer() {
   return (
     <footer>
       <div className="logo">
-        <h1 className="lulu-bold">CRYPTO CHICKS</h1>
+        <img src={logo} alt="" />
       </div>
       <div className="social-div">
         <a href="https://twitter.com/solsistersclub" target={"blank"}>

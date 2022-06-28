@@ -43,7 +43,7 @@ function Faq() {
               className={`faq-btn lulu ${open[0] ? "border-radius" : ""}`}
             >
               <p className={`${open[0] ? "active-btn" : ""}`}>
-                What is soul sisters?
+                What is Soul Sisters?
               </p>
               {open[0] ? (
                 <FontAwesomeIcon
@@ -56,7 +56,7 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[0] ? "active" : ""}`}>
               <p className="answer futura">
-                It is a set of 6969 soul sisters that grant holders access to
+                It is a set of 6969 Soul Sisters that grant holders access to
                 exclusive dating dapp, community forums & events.
               </p>
             </div>
@@ -76,7 +76,7 @@ function Faq() {
               className={`faq-btn lulu ${open[1] ? "border-radius" : ""}`}
             >
               <p className={`${open[1] ? "active-btn" : ""}`}>
-                Which block chain are soul sisters on?
+                Which block chain are Soul Sisters on?
               </p>
               {open[1] ? (
                 <FontAwesomeIcon
@@ -113,8 +113,8 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[2] ? "active" : ""}`}>
               <p className="answer futura">
-                Soul sister was founded by FC Villaflores the artist and her
-                life partner Soul Reaper the tech head.
+                sol sister was founded by FC Villaflores the artist and her life
+                partner sol Reaper the tech head.
               </p>
             </div>
           </>

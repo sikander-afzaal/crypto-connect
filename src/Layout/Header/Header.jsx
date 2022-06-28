@@ -33,7 +33,7 @@ function Header() {
       />
 
       <div className="logo">
-        {/* <h1 className="lulu-bold">SOL SISTERS</h1> */}
+        {/* <h1 className="lulu-bold">sol SISTERS</h1> */}
         <img src={logo} alt="" />
       </div>
       <FontAwesomeIcon
