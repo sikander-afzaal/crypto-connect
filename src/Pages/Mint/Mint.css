@@ -10,6 +10,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.mint::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/Soul\ Sisters\ \(5\).gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 0;
+  top: 0;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 0;
 }
 .mint button {
   padding: 10px 30px;
@@ -19,7 +33,14 @@
   cursor: pointer;
   font-size: 1.5rem;
   transition: all 0.2s ease;
+  position: relative;
+  z-index: 4;
 }
 .mint button:hover {
   opacity: 0.6;
+}
+@media screen and (max-width: 1046px) {
+  .mint::after {
+    background-size: cover;
+  }
 }

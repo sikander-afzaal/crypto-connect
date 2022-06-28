@@ -35,25 +35,28 @@ function Team() {
               <img src={teamImg} alt="" className="team-img" />
               <img src={teamNft} alt="" className="team-nft" />
             </div>
-            <div className="top-desc">
-              <div>
-                <h2 className="kanit">FC Villaflores</h2>
-                <p className="futura title"> Artist {"&"} Co-founder</p>
+            <div className="desc-div">
+              <div className="top-desc">
+                <div>
+                  <h2 className="kanit">FC Villaflores</h2>
+                  <p className="futura title"> Artist {"&"} Co-founder</p>
+                </div>
+
+                <div className="social-team">
+                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </div>
               </div>
 
-              <div className="social-team">
-                <FontAwesomeIcon icon={faTwitter} />
-                <FontAwesomeIcon icon={faLinkedin} />
-              </div>
+              <p className="coo-desc futura">
+                FC is a known female artist who draws for a known art gallery,
+                and brings in a whopping 9 years of experience in illustration,
+                art and motion graphics, she surely draws better than she can
+                cook, ask me about it the cofounder and her life partner, the
+                tech head who is actually building the site and filling in this
+                information.
+              </p>
             </div>
-
-            <p className="coo-desc futura">
-              FC is a known female artist who draws for a known art gallery, and
-              brings in a whopping 9 years of experience in illustration, art
-              and motion graphics, she surely draws better than she can cook,
-              ask me about it the cofounder and her life partner, the tech head
-              who is actually building the site and filling in this information.
-            </p>
           </div>
         </Fade>
         <Fade
@@ -68,22 +71,24 @@ function Team() {
               <img src={teamImg2} alt="" className="team-img" />
               <img src={teamNft2} alt="" className="team-nft" />
             </div>
-            <div className="top-desc">
-              <div>
-                <h2 className="kanit">Soul Reaper </h2>
-                <p className="futura title">Tech Head {"&"} Co-founder</p>
+            <div className="desc-div">
+              <div className="top-desc">
+                <div>
+                  <h2 className="kanit">Soul Reaper </h2>
+                  <p className="futura title">Tech Head {"&"} Co-founder</p>
+                </div>
+
+                <div className="social-team">
+                  <FontAwesomeIcon icon={faTwitter} />
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </div>
               </div>
 
-              <div className="social-team">
-                <FontAwesomeIcon icon={faTwitter} />
-                <FontAwesomeIcon icon={faLinkedin} />
-              </div>
+              <p className="coo-desc futura">
+                Soul Reaper is a business development manager with 11 years of
+                experience; however he has a soft side for tech and web3
+              </p>
             </div>
-
-            <p className="coo-desc futura">
-              Soul Reaper is a business development manager with 11 years of
-              experience; however he has a soft side for tech and web3
-            </p>
           </div>
         </Fade>
       </div>

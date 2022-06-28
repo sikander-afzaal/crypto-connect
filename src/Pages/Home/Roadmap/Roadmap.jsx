@@ -10,21 +10,27 @@ function Roadmap() {
 
       <div className="roadmap-grid">
         <div className="line"></div>
-        <Fade triggerOnce duration={1500} delay={200} cascade>
+        <Fade
+          className="center"
+          triggerOnce
+          duration={1500}
+          delay={200}
+          cascade
+        >
           <div className="road-div div1">
             <h2 className="kanit">Phase 1: Meet your sol sister.</h2>
             <p className="futura">
               • Soul sisters will launch in June 30th 2022 on ETH block-chain
             </p>
-            <p>
+            <p className="futura">
               • Soul sisters acts as a utility key for access to dating dapp and
               forum being built by our team.
             </p>
-            <p>
+            <p className="futura">
               • Holders will get access to discord to community till we launch
               our own forum.
             </p>
-            <p>
+            <p className="futura">
               • 72 hours after public sale, the mystery of the soul sisters will
               be revealed.
             </p>

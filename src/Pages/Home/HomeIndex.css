@@ -4,6 +4,24 @@
   padding-inline: 10px;
   overflow-x: hidden;
 }
+.road-cont,
+.second-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.road-cont {
+  background-image: url("../../Assets/road.png");
+  background-size: 100% 100%;
+}
+.second-cont {
+  background-image: url("../../Assets/by\ Fc\ villaflores\ \(6\).png");
+  background-size: 100% 100%;
+}
 .index-cont {
   width: 100%;
   display: flex;
@@ -37,5 +55,9 @@
   }
   .bg {
     display: none;
+  }
+  .road-cont,
+  .second-cont {
+    background-size: cover;
   }
 }

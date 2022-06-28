@@ -20,7 +20,11 @@ function Index() {
         <About />
         <Art />
         <Work />
+      </div>
+      <div className="road-cont">
         <Roadmap />
+      </div>
+      <div className="second-cont">
         <Team />
         <Faq />
       </div>

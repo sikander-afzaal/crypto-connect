@@ -22,11 +22,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 14px;
+  gap: 20px;
+}
+.social-div a {
+  text-decoration: none;
+  color: black;
 }
 .header-icon {
-  max-width: 20px;
-  height: 20px;
+  max-width: 30px;
+  height: 30px;
   display: grid;
   place-items: center;
   cursor: pointer;

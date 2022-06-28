@@ -6,11 +6,17 @@
   width: 100%;
   margin-top: 3rem;
   padding-bottom: 2rem;
+  max-width: 1200px;
 }
 .section-heading {
   font-size: 3.5rem;
   text-transform: uppercase;
-  color: var(--primary-color);
+  color: white;
+}
+.faq .section-heading,
+.team .section-heading,
+.roadmap .section-heading {
+  color: black;
 }
 .coo-row {
   display: grid;
@@ -52,6 +58,16 @@
 .team-img:hover {
   opacity: 0;
 }
+.desc-div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
 .top-desc {
   display: flex;
   justify-content: space-between;
@@ -60,12 +76,12 @@
 }
 .coo-div h2 {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: black;
   font-weight: 700;
 }
 .title {
   font-size: 0.9rem;
-  color: var(--secondary-color);
+  color: black;
   margin: 10px 0px;
 }
 .social-team {
@@ -75,7 +91,7 @@
   gap: 25px;
 }
 .social-team svg {
-  color: white;
+  color: black;
   font-size: 1.2rem;
   cursor: pointer;
 }
@@ -85,7 +101,7 @@
   line-height: 1.5;
   font-size: 0.95rem;
   margin-top: 10px;
-  color: white;
+  color: black;
 }
 .team-grid {
   width: 100%;
