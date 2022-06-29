@@ -34,7 +34,6 @@ function Header() {
         />
 
         <div className="logo">
-          {/* <h1 className="lulu-bold">sol SISTERS</h1> */}
           <img src={logo} alt="" />
         </div>
         <div className="menu-icon-div desktop">
@@ -50,13 +49,10 @@ function Header() {
             icon={faXmark}
             className="cross"
           />
-          {/* <div className="row-menu">
-          <img src={menuImg} alt="" />
-          <h2 className="lulu-bold">MENU</h2>
-        </div> */}
+
           <div className="menu-links-div">
             <a
-              href="#hero"
+              href="#mint"
               onClick={() => setMenu(false)}
               className="futura menu-link active"
             >

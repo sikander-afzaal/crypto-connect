@@ -8,7 +8,7 @@
   gap: 3rem;
   padding-bottom: 2rem;
   max-width: 1200px;
-  margin-bottom: 4rem;
+  margin-bottom: 14rem;
 }
 .roadmap-grid {
   position: relative;
@@ -47,7 +47,7 @@
 }
 .div1 {
   top: 10%;
-  left: 0;
+  left: -4%;
 }
 .div2 {
   top: 61%;
@@ -55,7 +55,7 @@
 }
 .div3 {
   top: 10%;
-  left: 45%;
+  left: 44%;
 }
 .div4 {
   top: 20%;
@@ -70,7 +70,7 @@
   }
   .div1 {
     top: 5%;
-    left: -7%;
+    left: -10%;
   }
   .div2 {
     top: 61%;
@@ -137,20 +137,19 @@
     content: "";
     position: absolute;
     left: -13px;
-    top: 25px;
+    top: 20px;
     width: 20px;
     height: 20px;
-    background-color: black;
+    background-color: white;
     border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
   }
 
   .road-div h2 {
     font-size: 2.7rem;
     text-align: left;
   }
-  .road-div::before {
-    top: 15px;
-  }
+
   .road-div p {
     font-size: 1.1rem;
     padding: 10px;
@@ -162,6 +161,9 @@
   }
 }
 @media screen and (max-width: 559px) {
+  .roadmap {
+    margin-bottom: 0rem;
+  }
   .road-div h2 {
     font-size: 1.5rem;
   }

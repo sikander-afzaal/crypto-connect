@@ -1,21 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-@font-face {
-  font-family: "Arial CE Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Arial CE Bold"),
-    url("../Assets/fonts/arialceb.woff") format("woff");
-}
-@font-face {
-  font-family: "Arial CE Light";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Arial CE Bold"), url("../Assets/fonts/ARIAL.woff") format("woff");
 }
 
 @font-face {
@@ -40,10 +29,10 @@
   font-family: "LuloClean", "sans-serif";
 }
 .kanit-main {
-  font-family: "Arial CE Light", "sans-serif";
+  font-family: "Poppins", "sans-serif";
 }
 .kanit {
-  font-family: "Arial CE Bold", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 :root {
   --primary-color: white;
