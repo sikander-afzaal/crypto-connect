@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-image: url("../../Assets/connect-bg.gif");
+  background-image: url("../../Assets/connect-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -25,27 +25,37 @@
   position: absolute;
   z-index: 4;
   top: 68%;
-  left: 51%;
+  left: 49%;
   transform: translateX(-50%) translateY(-50%);
 }
 @media screen and (min-width: 1915px) {
   .mint button {
-    top: 71%;
+    top: 59%;
   }
 }
 @media screen and (max-width: 1915px) {
   .mint button {
-    top: 70%;
+    top: 58%;
   }
 }
 @media screen and (max-width: 1823px) {
   .mint button {
-    top: 68.5%;
+    top: 57%;
+    width: 220px;
+    padding: 15px 0px;
+    display: grid;
+    place-items: center;
   }
 }
 @media screen and (max-width: 1600px) {
   .mint button {
-    top: 66%;
+    top: 57%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .mint button {
+    left: 49%;
+    width: 200px;
   }
 }
 .mint button:hover {
@@ -57,18 +67,14 @@
 
 @media screen and (max-width: 850px) {
   .mint button {
-    left: 52%;
-    width: 220px;
-    padding: 15px 0px;
-    display: grid;
-    place-items: center;
+    left: 48%;
   }
 }
 @media screen and (max-width: 470px) {
   .mint button {
-    left: 50%;
+    left: 48.5%;
   }
   .mint {
-    background-position: 51.5%;
+    background-position: 49%;
   }
 }
