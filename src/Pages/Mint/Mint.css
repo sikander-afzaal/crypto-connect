@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-image: url("../../Assets/connect-bg.png");
+  background-image: url("../../Assets/connect-bg.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,7 +15,10 @@
 }
 
 .mint button {
-  padding: 15px 40px;
+  width: 220px;
+  padding: 15px 0px;
+  display: grid;
+  place-items: center;
   background-color: rgba(246, 43, 132, 1);
   border: 3px solid white;
   color: white;
@@ -41,10 +44,6 @@
 @media screen and (max-width: 1823px) {
   .mint button {
     top: 57%;
-    width: 220px;
-    padding: 15px 0px;
-    display: grid;
-    place-items: center;
   }
 }
 @media screen and (max-width: 1600px) {

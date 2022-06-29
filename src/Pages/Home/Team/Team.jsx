@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faAt } from "@fortawesome/free-solid-svg-icons";
+import { Fade } from "react-awesome-reveal";
 
 import "./Team.css";
 import teamImg from "../../../Assets/art/art (7).png";
@@ -8,7 +9,6 @@ import teamImg2 from "../../../Assets/art/art (2).png";
 import teamNft from "../../../Assets/art/art (3).png";
 import teamNft2 from "../../../Assets/art/art (6).png";
 
-import { Fade } from "react-awesome-reveal";
 function Team() {
   return (
     <div id="team" className="team">
@@ -43,8 +43,9 @@ function Team() {
                 </div>
 
                 <div className="social-team">
-                  <FontAwesomeIcon icon={faTwitter} />
-                  <FontAwesomeIcon icon={faLinkedin} />
+                  <a href="mailto:fcvillaflores@soulsisters.wtf">
+                    <FontAwesomeIcon icon={faAt} />
+                  </a>
                 </div>
               </div>
 
@@ -79,14 +80,17 @@ function Team() {
                 </div>
 
                 <div className="social-team">
-                  <FontAwesomeIcon icon={faTwitter} />
-                  <FontAwesomeIcon icon={faLinkedin} />
+                  <a href="mailto:soulreaper@soulsisters.wtf">
+                    <FontAwesomeIcon icon={faAt} />
+                  </a>
                 </div>
               </div>
 
               <p className="coo-desc futura">
-                sol Reaper is a business development manager with 11 years of
-                experience; however he has a soft side for tech and web3
+                Soul Reaper is a programmer with 11 years of experience, he was
+                one of the tech head in HI5, worked for Microsoft as a software
+                engineer serving Microsoft Dynamics, and has a soft side for
+                web3.
               </p>
             </div>
           </div>

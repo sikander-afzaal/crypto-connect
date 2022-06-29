@@ -1,15 +1,16 @@
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 import "./Roadmap.css";
+import bg from "../../../Assets/road-bg.gif";
 function Roadmap() {
   return (
     <div id="road" className="roadmap">
       <Fade triggerOnce direction="down" duration={500} delay={200}>
         <h2 className="kanit section-heading">ROADMAP</h2>
       </Fade>
-
       <div className="roadmap-grid">
         <div className="line"></div>
+        <img src={bg} alt="" />
         <Fade
           className="center"
           triggerOnce

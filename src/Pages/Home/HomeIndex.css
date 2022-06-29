@@ -16,11 +16,10 @@
   background-repeat: no-repeat;
 }
 .road-cont {
-  background-image: url("../../Assets/road-bg.gif");
-  background-size: cover;
+  background-color: rgba(169, 188, 204, 255);
 }
 .second-cont {
-  background-image: url("../../Assets/about-bg.gif");
+  background-image: url("../../Assets/about-bg (2).gif");
   background-size: cover;
   overflow-y: hidden;
 }
