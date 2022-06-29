@@ -7,7 +7,13 @@ function About() {
       <Fade triggerOnce direction="down" duration={500} delay={200}>
         <h1 className="kanit section-heading">About Us</h1>
       </Fade>
-      <Fade triggerOnce direction="up" duration={500} delay={700}>
+      <Fade
+        className="flex-center"
+        triggerOnce
+        direction="up"
+        duration={500}
+        delay={700}
+      >
         <p className="lulu">
           sol sisters is a set of 6969 degen sistas, generated on the blockchain
           representing women from all aspects & cultures of the metaverse.

@@ -17,7 +17,12 @@ import art10 from "../../../Assets/art/art (10).png";
 import art11 from "../../../Assets/art/art (11).png";
 function Work() {
   return (
-    <Fade triggerOnce duration={1000} delay={200}>
+    <Fade
+      style={{ width: "100%", maxWidth: "1400px" }}
+      triggerOnce
+      duration={1000}
+      delay={200}
+    >
       <div className="work">
         <h1 className="section-heading kanit">Art Work</h1>
         <Splide
@@ -27,9 +32,12 @@ function Work() {
             drag: "free",
             arrows: false,
             pagination: false,
-            perPage: 3,
+            perPage: 4,
             width: "100%",
             breakpoints: {
+              1276: {
+                perPage: 3,
+              },
               965: {
                 perPage: 2,
               },

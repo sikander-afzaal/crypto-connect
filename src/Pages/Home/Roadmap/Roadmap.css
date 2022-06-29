@@ -47,8 +47,9 @@
 }
 .road-div h2 {
   font-size: 3rem;
-  color: darkblue;
+  color: white;
   text-align: center;
+  text-shadow: 5px 0px 10px rgba(0, 0, 0, 0.6);
 }
 .road-div p {
   font-size: 1.3rem;
@@ -57,17 +58,18 @@
   text-align: left;
   background-color: white;
   border: 1px solid black;
-  padding: 5px;
+  padding: 10px;
+  font-weight: 500;
 }
 @media screen and (max-width: 882px) {
   .road-div h2 {
-    font-size: 2.2rem;
+    font-size: 2.7rem;
   }
   .road-div::before {
     top: 15px;
   }
   .road-div p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 10px;
     width: 95%;
   }
@@ -77,11 +79,11 @@
 }
 @media screen and (max-width: 559px) {
   .road-div h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-align: left;
   }
   .road-div p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .roadmap-grid {
     column-gap: 20px;
