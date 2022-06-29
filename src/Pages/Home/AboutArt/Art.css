@@ -16,16 +16,16 @@
 .team-grid__box {
   display: flex;
   justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
   align-items: center;
   gap: 0px;
   width: 800px;
-
+  position: relative;
   flex-direction: column;
-  background: var(--gradient-color);
+  background: white;
   padding: 20px 0px;
   border-radius: 10px;
   overflow: visible;
-  border: 2px solid white;
 }
 .team-box__left {
   display: flex;
@@ -57,9 +57,10 @@
 .team-box-desc {
   font-size: 16px;
   text-align: center;
-  width: 600px;
+  width: 95%;
   line-height: 1.6;
-  color: white;
+  color: black;
+  font-weight: bold;
   margin-top: 10px;
 }
 @media screen and (max-width: 820px) {

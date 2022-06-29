@@ -17,11 +17,11 @@
 }
 .road-cont {
   background-image: url("../../Assets/road-bg.gif");
-  background-size: 100% 100%;
+  background-size: cover;
 }
 .second-cont {
   background-image: url("../../Assets/about-bg.gif");
-  background-size: 100% 100%;
+  background-size: cover;
   overflow-y: hidden;
 }
 .index-cont {

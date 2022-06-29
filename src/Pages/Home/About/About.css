@@ -29,7 +29,8 @@
   width: 620px;
 }
 .about p::before,
-.art-desc::before {
+.art-desc::before,
+.team-grid__box::before {
   content: "";
   position: absolute;
   inset: 0;
