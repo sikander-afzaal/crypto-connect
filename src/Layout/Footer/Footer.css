@@ -5,8 +5,12 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 2px solid black;
+
   gap: 2rem;
+  max-width: 1600px;
+}
+.footer-cont {
+  border-top: 2px solid black;
 }
 footer .logo {
   width: fit-content;
