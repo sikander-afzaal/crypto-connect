@@ -16,11 +16,11 @@
   background-repeat: no-repeat;
 }
 .road-cont {
-  background-image: url("../../Assets/road.png");
-  background-size: 100% 100%;
+  background-image: url("../../Assets/road-bg.gif");
+  background-size: cover;
 }
 .second-cont {
-  background-image: url("../../Assets/by\ Fc\ villaflores\ \(6\).png");
+  background-image: url("../../Assets/about-bg.gif");
   background-size: 100% 100%;
   overflow-y: hidden;
 }

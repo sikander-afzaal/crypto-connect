@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 @font-face {
+  font-family: "Arial CE Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Arial CE Bold"),
+    url("../Assets/fonts/arialceb.woff") format("woff");
+}
+
+@font-face {
   font-family: Futura;
   src: url("../Assets/fonts/Futura\ Lt\ Light.ttf");
 }
@@ -26,7 +34,7 @@
   font-family: "LuloClean", "sans-serif";
 }
 .kanit {
-  font-family: "Kanit", sans-serif;
+  font-family: "Arial CE Bold", sans-serif;
 }
 :root {
   --primary-color: white;

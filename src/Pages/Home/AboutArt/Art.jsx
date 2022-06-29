@@ -12,7 +12,7 @@ function Art() {
             <h1 className="section-heading kanit">About The Art</h1>
           </div>
           <div className="team-box__right">
-            <img src={gif} alt="" className="gif-box" />
+            {/* <img src={gif} alt="" className="gif-box" /> */}
             <p className="team-box-desc futura">
               VC villaflores has drawn a total of 178 traits to ensure that each
               and every sister is unique and beautiful, these traits are divided

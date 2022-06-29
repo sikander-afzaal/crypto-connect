@@ -3,7 +3,7 @@
   height: 100vh;
   max-height: 100vh;
   overflow: hidden;
-  background-image: url("../../Assets/mint.png");
+  background-image: url("../../Assets/connect-bg.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11,31 +11,21 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  min-height: 652px;
 }
-.mint::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-image: url("../../Assets/Soul\ Sisters\ \(5\).gif");
 
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  left: 0;
-  top: 0;
-  opacity: 0.3;
-  position: absolute;
-  z-index: 0;
-}
 .mint button {
-  padding: 10px 30px;
-  background-color: rgba(246, 43, 132, 0.7);
+  padding: 15px 40px;
+  background-color: rgba(246, 43, 132, 1);
   border: 3px solid white;
   color: white;
   cursor: pointer;
   font-size: 1.5rem;
   transition: all 0.2s ease;
-  position: relative;
+  position: absolute;
   z-index: 4;
+  top: 68%;
+  left: 45%;
 }
 .mint button:hover {
   opacity: 0.6;
@@ -43,7 +33,7 @@
 .mint img {
   display: none;
 }
-@media screen and (max-width: 1046px) {
+@media screen and (max-width: 1406px) {
   .mint::after {
   }
 }

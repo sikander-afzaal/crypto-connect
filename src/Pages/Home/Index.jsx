@@ -17,8 +17,8 @@ function Index() {
       {/* <img src={bg} alt="" className="bg" /> */}
       <Header />
       <Mint />
-      <div className="home-index">
-        {/* <Hero /> */}
+      {/* <Hero /> */}
+      <div className="second-cont">
         <About />
         <Art />
         <Work />
