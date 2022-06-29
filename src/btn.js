@@ -102,14 +102,53 @@ function Btn() {
   }, [blockchain.account]);
 
   return (
-    <button
-      onClick={(e) => {
-        dispatch(connect());
-        getData();
-      }}
-    >
-      Connect Wallet
-    </button>
+    <>
+      {blockchain.account === "" || blockchain.smartContract === null ? (
+        <button
+          onClick={(e) => {
+            e.preventDefault();
+            dispatch(connect());
+            getData();
+          }}
+        >
+          CONNECT
+        </button>
+      ) : (
+        <div className="buy-div">
+          <div className="increment-div">
+            <button
+              disabled={claimingNft ? 1 : 0}
+              onClick={(e) => {
+                e.preventDefault();
+                decrementMintAmount();
+              }}
+            >
+              -
+            </button>
+            <p>{mintAmount}</p>
+            <button
+              disabled={claimingNft ? 1 : 0}
+              onClick={(e) => {
+                e.preventDefault();
+                incrementMintAmount();
+              }}
+            >
+              +
+            </button>
+          </div>
+          <button
+            disabled={claimingNft ? 1 : 0}
+            onClick={(e) => {
+              e.preventDefault();
+              claimNFTs();
+              getData();
+            }}
+          >
+            {claimingNft ? "BUSY" : "BUY"}
+          </button>
+        </div>
+      )}
+    </>
   );
 }
 

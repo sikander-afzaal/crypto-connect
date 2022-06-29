@@ -31,6 +31,43 @@
   left: 49%;
   transform: translateX(-50%) translateY(-50%);
 }
+.buy-div {
+  position: absolute;
+  top: 58%;
+  left: 49%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.buy-div button {
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: none;
+}
+.increment-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.increment-div p {
+  font-size: 25px;
+}
+.increment-div button {
+  border-radius: 50%;
+  width: 50px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  position: static;
+  top: 0 !important;
+  left: 0 !important;
+}
 @media screen and (min-width: 1915px) {
   .mint button {
     top: 59%;
@@ -44,6 +81,17 @@
 @media screen and (max-width: 1823px) {
   .mint button {
     top: 57%;
+  }
+}
+@media screen and (max-width: 1730px) {
+  .buy-div {
+    top: 57%;
+  }
+}
+@media screen and (max-width: 1640px) {
+  .buy-div {
+    top: 56.5%;
+    gap: 10px;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -64,9 +112,19 @@
   display: none;
 }
 
+@media screen and (max-width: 958px) {
+  .buy-div {
+    left: 48%;
+  }
+}
 @media screen and (max-width: 850px) {
   .mint button {
     left: 48%;
+  }
+}
+@media screen and (max-width: 572px) {
+  .buy-div {
+    left: 47%;
   }
 }
 @media screen and (max-width: 470px) {
