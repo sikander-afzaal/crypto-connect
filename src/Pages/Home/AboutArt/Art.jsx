@@ -2,7 +2,6 @@ import React from "react";
 
 import "./Art.css";
 import { Fade } from "react-awesome-reveal";
-import gif from "../../../Assets/gif-box.gif";
 function Art() {
   return (
     <div className="art">
