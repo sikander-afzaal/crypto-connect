@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@400;600&family=Splash&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -27,10 +27,10 @@
   font-family: "LuloClean", "sans-serif";
 }
 .kanit-main {
-  font-family: "Rubik", "sans-serif";
+  font-family: "Splash", cursive;
 }
 .kanit {
-  font-family: "Rubik", sans-serif;
+  font-family: "Arima", cursive;
 }
 :root {
   --primary-color: white;
