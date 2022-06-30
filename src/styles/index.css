@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Arima:wght@400;600&family=Splash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -27,7 +27,7 @@
   font-family: "LuloClean", "sans-serif";
 }
 .kanit-main {
-  font-family: "Splash", cursive;
+  font-family: "Arima", cursive;
 }
 .kanit {
   font-family: "Arima", cursive;
