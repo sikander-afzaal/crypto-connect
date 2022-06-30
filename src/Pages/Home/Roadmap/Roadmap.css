@@ -28,7 +28,7 @@
   grid-row: 1/5;
   width: 5px;
   display: block;
-  background: var(--gradient-color);
+  background: rgb(138, 62, 255);
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
 }
 .road-div {
@@ -60,10 +60,12 @@
   font-size: 2rem;
   color: white;
   text-align: center;
-  text-shadow: 5px 0px 10px rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  text-shadow: 5px 2px 10px rgba(0, 0, 0, 0.3);
 }
 .road-div p {
   font-size: 16px;
+  font-weight: 400;
   color: black;
   max-width: 800px;
   text-align: left;
