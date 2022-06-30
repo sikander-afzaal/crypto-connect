@@ -17,7 +17,10 @@ function Header() {
           <a href="https://twitter.com/solsistersclub" target={"blank"}>
             <FontAwesomeIcon icon={faTwitter} className={"header-icon"} />
           </a>
-          <a href="https://twitter.com/solsistersclub" target={"blank"}>
+          <a
+            href="https://opensea.io/collection/soul-sisters-by-fc-villaflores"
+            target={"blank"}
+          >
             <img src={opensea} alt="" className="header-icon" />
           </a>
           <a
