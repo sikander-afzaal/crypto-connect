@@ -11,6 +11,7 @@
   margin-top: 4rem;
   overflow-y: hidden;
   margin-bottom: 6rem;
+  padding-inline: 10px;
 }
 .flex-center {
   display: flex;
@@ -18,13 +19,15 @@
   align-items: center;
 }
 .about p,
-.art-desc {
+.art-desc,
+.team-box-desc {
   padding: 20px 10px;
   background-color: rgba(255, 255, 255, 0.7);
   line-height: 1.6;
   color: black;
   font-weight: bold;
   border-radius: 10px;
+  text-align: center;
   position: relative;
   width: 620px;
 }
@@ -43,7 +46,8 @@
 }
 @media screen and (max-width: 660px) {
   .about p,
-  .art-desc {
+  .art-desc,
+  .team-box-desc {
     width: 98%;
     padding: 20px 10px;
     font-size: 0.8rem;

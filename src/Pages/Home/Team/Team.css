@@ -204,6 +204,9 @@
   .mod-row {
     justify-content: space-evenly;
   }
+  .section-heading {
+    font-size: 2.5em;
+  }
 }
 @media screen and (max-width: 452px) {
   .coo-desc {

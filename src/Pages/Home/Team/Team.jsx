@@ -75,7 +75,7 @@ function Team() {
             <div className="desc-div">
               <div className="top-desc">
                 <div>
-                  <h2 className="kanit">soul Reaper </h2>
+                  <h2 className="kanit">Soul Reaper </h2>
                   <p className="futura title">Tech Head {"&"} Co-founder</p>
                 </div>
 

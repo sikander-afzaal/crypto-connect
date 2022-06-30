@@ -6,7 +6,17 @@ import "./Faq.css";
 import { Fade } from "react-awesome-reveal";
 function Faq() {
   // if you want to add more questions just add another false here or vice versa
-  const [open, setOpen] = useState([false, false, false, false, false, false]);
+  const [open, setOpen] = useState([
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+  ]);
   //function to check which faq is opened
   const clickHandler = (e) => {
     const num = e.target.dataset.num;
@@ -113,8 +123,8 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[2] ? "active" : ""}`}>
               <p className="answer futura">
-                sol sister was founded by FC Villaflores the artist and her life
-                partner sol Reaper the tech head.
+                Soul Sister was founded by FC Villaflores the artist and her
+                life partner Soul Reaper the tech head.
               </p>
             </div>
           </>
@@ -210,7 +220,113 @@ function Faq() {
             </div>
             <div className={`faq-answer ${open[5] ? "active" : ""}`}>
               <p className="answer futura">
-                Mint price is 0.03 ETH and max 5 per wallet.
+                Mint price is 0.008 ETH and max 5 per wallet.
+              </p>
+            </div>
+          </>
+        </Fade>
+        <Fade
+          className="faq-q-div"
+          triggerOnce
+          direction="up"
+          duration={600}
+          delay={500}
+        >
+          <>
+            <div
+              data-num={6}
+              onClick={clickHandler}
+              className={`faq-btn lulu ${open[6] ? "border-radius" : ""}`}
+            >
+              <p className={`${open[6] ? "active-btn" : ""}`}>
+                Will there be discord?
+              </p>
+              {open[6] ? (
+                <FontAwesomeIcon
+                  className={`${open[6] ? "active-btn" : ""}`}
+                  icon={faMinus}
+                />
+              ) : (
+                <FontAwesomeIcon icon={faPlus} />
+              )}
+            </div>
+            <div className={`faq-answer ${open[6] ? "active" : ""}`}>
+              <p className="answer futura">
+                We do have a discord server however we are keeping it strictly
+                for verified holders to prevent as much as possible any hack
+                attempts and keep away people who fud when they arent even
+                holders, Discord link will be shared 12 hours after mint is live
+                on twitter.
+              </p>
+            </div>
+          </>
+        </Fade>
+        <Fade
+          className="faq-q-div"
+          triggerOnce
+          direction="up"
+          duration={600}
+          delay={500}
+        >
+          <>
+            <div
+              data-num={7}
+              onClick={clickHandler}
+              className={`faq-btn lulu ${open[7] ? "border-radius" : ""}`}
+            >
+              <p className={`${open[7] ? "active-btn" : ""}`}>
+                Will you be holding twitter space to introduce the project?
+              </p>
+              {open[7] ? (
+                <FontAwesomeIcon
+                  className={`${open[7] ? "active-btn" : ""}`}
+                  icon={faMinus}
+                />
+              ) : (
+                <FontAwesomeIcon icon={faPlus} />
+              )}
+            </div>
+            <div className={`faq-answer ${open[7] ? "active" : ""}`}>
+              <p className="answer futura">
+                we are holding an AMA session on discord for holders only, where
+                you will get to meet and greet with the founders, answer all
+                your questions and concerns, vibe with you all and end it with a
+                movie night.
+              </p>
+            </div>
+          </>
+        </Fade>
+        <Fade
+          className="faq-q-div"
+          triggerOnce
+          direction="up"
+          duration={600}
+          delay={500}
+        >
+          <>
+            <div
+              data-num={8}
+              onClick={clickHandler}
+              className={`faq-btn lulu ${open[8] ? "border-radius" : ""}`}
+            >
+              <p className={`${open[8] ? "active-btn" : ""}`}>
+                I have few concerns and want to speak with the founders before
+                mint, how to reach them?
+              </p>
+              {open[8] ? (
+                <FontAwesomeIcon
+                  className={`${open[8] ? "active-btn" : ""}`}
+                  icon={faMinus}
+                />
+              ) : (
+                <FontAwesomeIcon icon={faPlus} />
+              )}
+            </div>
+            <div className={`faq-answer ${open[8] ? "active" : ""}`}>
+              <p className="answer futura">
+                We are very active on our twitter page, you can dm us and we
+                will get back to you right away or you can email us and we will
+                get back to you.
               </p>
             </div>
           </>

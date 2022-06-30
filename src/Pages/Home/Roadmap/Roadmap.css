@@ -93,6 +93,9 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .roadmap-grid img {
@@ -109,7 +112,7 @@
     grid-template-columns: auto 1fr;
     grid-template-rows: repeat(4, auto);
     row-gap: 60px;
-    width: 100%;
+    width: fit-content;
   }
   .line {
     margin-left: 14px;

@@ -15,10 +15,10 @@ function About() {
         delay={700}
       >
         <p className="lulu">
-          sol sisters is a set of 6969 degen sistas, generated on the blockchain
-          representing women from all aspects & cultures of the metaverse.
-          Holding a “Sista” acts as a utility providing the holder an exclusive
-          access to a dating dapps and forum being built by our team.
+          Soul Sisters is a set of 6969 degen sistas, generated on the
+          blockchain representing women from all aspects & cultures of the
+          metaverse. Holding a “Sista” acts as a utility providing the holder an
+          exclusive access to a dating dapps and forum being built by our team.
         </p>
       </Fade>
     </div>
